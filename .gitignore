@@ -1,0 +1,10 @@
+rocksdb
+bazel-bin
+bazel-jelectrum
+bazel-out
+bazel-testlogs
+*.iml
+keystore.jks
+event-log.txt
+jelly.conf
+/.vscode
