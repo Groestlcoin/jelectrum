@@ -54,7 +54,7 @@ maven_install(
         "org.rocksdb:rocksdbjni:5.14.2",
         "junit:junit:4.12",
         "com.google.guava:guava:28.1-jre",
-        "org.bitcoinj:bitcoinj-core:0.15.8",
+        "org.groestlcoinj:groestlcoinj-core:0.15.5.1",
         "com.thetransactioncompany:jsonrpc2-server:1.11",
         "org.json:json:20200518",
         "commons-codec:commons-codec:1.14",
@@ -67,6 +67,7 @@ maven_install(
     repositories = [
         "https://repo1.maven.org/maven2",
         "https://maven.google.com",
+        "https://jcenter.bintray.com",
     ],
     #maven_install_json = "//:maven_install.json",
 )
